@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Github_Auto_Follow.dir/main.cpp.o"
-  "CMakeFiles/Github_Auto_Follow.dir/main.cpp.o.d"
+  "CMakeFiles/Github_Auto_Follow.dir/src/main.cpp.o"
+  "CMakeFiles/Github_Auto_Follow.dir/src/main.cpp.o.d"
   "Github_Auto_Follow"
   "Github_Auto_Follow.pdb"
 )

@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/dongwook/GIthub_Auto_Follow/C++/main.cpp" "CMakeFiles/Github_Auto_Follow.dir/main.cpp.o" "gcc" "CMakeFiles/Github_Auto_Follow.dir/main.cpp.o.d"
+  "/home/dongwook/GIthub_Auto_Follow/C++/src/main.cpp" "CMakeFiles/Github_Auto_Follow.dir/src/main.cpp.o" "gcc" "CMakeFiles/Github_Auto_Follow.dir/src/main.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

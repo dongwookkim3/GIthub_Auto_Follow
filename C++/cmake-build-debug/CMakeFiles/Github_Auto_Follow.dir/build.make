@@ -69,28 +69,28 @@ include CMakeFiles/Github_Auto_Follow.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Github_Auto_Follow.dir/flags.make
 
-CMakeFiles/Github_Auto_Follow.dir/main.cpp.o: CMakeFiles/Github_Auto_Follow.dir/flags.make
-CMakeFiles/Github_Auto_Follow.dir/main.cpp.o: /home/dongwook/GIthub_Auto_Follow/C++/main.cpp
-CMakeFiles/Github_Auto_Follow.dir/main.cpp.o: CMakeFiles/Github_Auto_Follow.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dongwook/GIthub_Auto_Follow/C++/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Github_Auto_Follow.dir/main.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Github_Auto_Follow.dir/main.cpp.o -MF CMakeFiles/Github_Auto_Follow.dir/main.cpp.o.d -o CMakeFiles/Github_Auto_Follow.dir/main.cpp.o -c /home/dongwook/GIthub_Auto_Follow/C++/main.cpp
+CMakeFiles/Github_Auto_Follow.dir/src/main.cpp.o: CMakeFiles/Github_Auto_Follow.dir/flags.make
+CMakeFiles/Github_Auto_Follow.dir/src/main.cpp.o: /home/dongwook/GIthub_Auto_Follow/C++/src/main.cpp
+CMakeFiles/Github_Auto_Follow.dir/src/main.cpp.o: CMakeFiles/Github_Auto_Follow.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dongwook/GIthub_Auto_Follow/C++/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Github_Auto_Follow.dir/src/main.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Github_Auto_Follow.dir/src/main.cpp.o -MF CMakeFiles/Github_Auto_Follow.dir/src/main.cpp.o.d -o CMakeFiles/Github_Auto_Follow.dir/src/main.cpp.o -c /home/dongwook/GIthub_Auto_Follow/C++/src/main.cpp
 
-CMakeFiles/Github_Auto_Follow.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Github_Auto_Follow.dir/main.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dongwook/GIthub_Auto_Follow/C++/main.cpp > CMakeFiles/Github_Auto_Follow.dir/main.cpp.i
+CMakeFiles/Github_Auto_Follow.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Github_Auto_Follow.dir/src/main.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dongwook/GIthub_Auto_Follow/C++/src/main.cpp > CMakeFiles/Github_Auto_Follow.dir/src/main.cpp.i
 
-CMakeFiles/Github_Auto_Follow.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Github_Auto_Follow.dir/main.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dongwook/GIthub_Auto_Follow/C++/main.cpp -o CMakeFiles/Github_Auto_Follow.dir/main.cpp.s
+CMakeFiles/Github_Auto_Follow.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Github_Auto_Follow.dir/src/main.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dongwook/GIthub_Auto_Follow/C++/src/main.cpp -o CMakeFiles/Github_Auto_Follow.dir/src/main.cpp.s
 
 # Object files for target Github_Auto_Follow
 Github_Auto_Follow_OBJECTS = \
-"CMakeFiles/Github_Auto_Follow.dir/main.cpp.o"
+"CMakeFiles/Github_Auto_Follow.dir/src/main.cpp.o"
 
 # External object files for target Github_Auto_Follow
 Github_Auto_Follow_EXTERNAL_OBJECTS =
 
-Github_Auto_Follow: CMakeFiles/Github_Auto_Follow.dir/main.cpp.o
+Github_Auto_Follow: CMakeFiles/Github_Auto_Follow.dir/src/main.cpp.o
 Github_Auto_Follow: CMakeFiles/Github_Auto_Follow.dir/build.make
 Github_Auto_Follow: CMakeFiles/Github_Auto_Follow.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/dongwook/GIthub_Auto_Follow/C++/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Github_Auto_Follow"

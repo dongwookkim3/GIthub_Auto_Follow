@@ -5,57 +5,13 @@
 		<Option title="Github_Auto_Follow"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\src\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/dongwook/GIthub_Auto_Follow/C++/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j16 -f &quot;/home/dongwook/GIthub_Auto_Follow/C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/dongwook/GIthub_Auto_Follow/C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/home/dongwook/GIthub_Auto_Follow/C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/home/dongwook/GIthub_Auto_Follow/C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Github_Auto_Follow">
-				<Option output="/home/dongwook/GIthub_Auto_Follow/C++/cmake-build-debug/Github_Auto_Follow" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/dongwook/GIthub_Auto_Follow/C++/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/11"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
-					<Add directory="/usr/include/c++/11/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/home/dongwook/GIthub_Auto_Follow/C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 Github_Auto_Follow"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/dongwook/GIthub_Auto_Follow/C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/home/dongwook/GIthub_Auto_Follow/C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/home/dongwook/GIthub_Auto_Follow/C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Github_Auto_Follow/fast">
-				<Option output="/home/dongwook/GIthub_Auto_Follow/C++/cmake-build-debug/Github_Auto_Follow" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/dongwook/GIthub_Auto_Follow/C++/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/11"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
-					<Add directory="/usr/include/c++/11/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/home/dongwook/GIthub_Auto_Follow/C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 Github_Auto_Follow/fast"/>
 					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/dongwook/GIthub_Auto_Follow/C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j16 -f &quot;/home/dongwook/GIthub_Auto_Follow/C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j16 -f &quot;/home/dongwook/GIthub_Auto_Follow/C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -81,12 +37,59 @@
 					<DistClean command="/usr/bin/make -j16 -f &quot;/home/dongwook/GIthub_Auto_Follow/C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="Github_Auto_Follow">
+				<Option output="/home/dongwook/GIthub_Auto_Follow/C++/cmake-build-debug/src/Github_Auto_Follow" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/dongwook/GIthub_Auto_Follow/C++/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/dongwook/GIthub_Auto_Follow/C++/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 Github_Auto_Follow"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/dongwook/GIthub_Auto_Follow/C++/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/dongwook/GIthub_Auto_Follow/C++/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/dongwook/GIthub_Auto_Follow/C++/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Github_Auto_Follow/fast">
+				<Option output="/home/dongwook/GIthub_Auto_Follow/C++/cmake-build-debug/src/Github_Auto_Follow" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/dongwook/GIthub_Auto_Follow/C++/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/dongwook/GIthub_Auto_Follow/C++/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 Github_Auto_Follow/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/dongwook/GIthub_Auto_Follow/C++/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/dongwook/GIthub_Auto_Follow/C++/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/dongwook/GIthub_Auto_Follow/C++/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
-		<Unit filename="/home/dongwook/GIthub_Auto_Follow/C++/main.cpp">
+		<Unit filename="/home/dongwook/GIthub_Auto_Follow/C++/src/main.cpp">
 			<Option target="Github_Auto_Follow"/>
 		</Unit>
 		<Unit filename="/home/dongwook/GIthub_Auto_Follow/C++/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/dongwook/GIthub_Auto_Follow/C++/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>
