@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/Github_Auto_Follow.dir/main.cpp.o -o Github_Auto_Follow 
