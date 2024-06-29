@@ -1,5 +1,5 @@
-/home/dongwook/GIthub_Auto_Follow/C++/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/dongwook/GIthub_Auto_Follow/C++/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/dongwook/GIthub_Auto_Follow/C++/cmake-build-debug/src/CMakeFiles/Github_Auto_Follow.dir
-/home/dongwook/GIthub_Auto_Follow/C++/cmake-build-debug/src/CMakeFiles/edit_cache.dir
-/home/dongwook/GIthub_Auto_Follow/C++/cmake-build-debug/src/CMakeFiles/rebuild_cache.dir
+/home/dongwook/CLionProjects/Github_Auto_Follow/C++/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/dongwook/CLionProjects/Github_Auto_Follow/C++/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/dongwook/CLionProjects/Github_Auto_Follow/C++/cmake-build-debug/src/CMakeFiles/Github_Auto_Follow.dir
+/home/dongwook/CLionProjects/Github_Auto_Follow/C++/cmake-build-debug/src/CMakeFiles/edit_cache.dir
+/home/dongwook/CLionProjects/Github_Auto_Follow/C++/cmake-build-debug/src/CMakeFiles/rebuild_cache.dir

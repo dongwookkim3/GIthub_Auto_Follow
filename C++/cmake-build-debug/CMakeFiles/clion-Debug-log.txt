@@ -1,4 +1,4 @@
-/snap/clion/277/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/usr/bin/make -DCMAKE_C_COMPILER=/usr/bin/gcc -DCMAKE_CXX_COMPILER=/usr/bin/g++ -G "CodeBlocks - Unix Makefiles" -S /home/dongwook/GIthub_Auto_Follow/C++ -B /home/dongwook/GIthub_Auto_Follow/C++/cmake-build-debug
+/home/dongwook/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" -S /home/dongwook/CLionProjects/Github_Auto_Follow/C++ -B /home/dongwook/CLionProjects/Github_Auto_Follow/C++/cmake-build-debug
 CMake Deprecation Warning:
   Support for "Extra Generators" like
 
@@ -9,5 +9,8 @@ CMake Deprecation Warning:
 
 
 -- Configuring done (0.0s)
--- Generating done (0.0s)
--- Build files have been written to: /home/dongwook/GIthub_Auto_Follow/C++/cmake-build-debug
+CMake Error at src/Resource/CMakeLists.txt:1 (add_executable):
+  No SOURCES given to target: TestPrint.cpp
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.

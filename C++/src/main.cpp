@@ -1,6 +1,6 @@
-#include <iostream>
-using namespace std;
-int main(void){
-    cout << "Hello, C++";
+#include "Include/main.h"
+
+int main(void) {
+    PrintHelloCPP();
     return 0;
 }

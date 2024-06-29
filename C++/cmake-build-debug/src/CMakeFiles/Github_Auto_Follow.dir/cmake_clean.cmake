@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Github_Auto_Follow.dir/Resource/TestPrint.cpp.o"
+  "CMakeFiles/Github_Auto_Follow.dir/Resource/TestPrint.cpp.o.d"
   "CMakeFiles/Github_Auto_Follow.dir/main.cpp.o"
   "CMakeFiles/Github_Auto_Follow.dir/main.cpp.o.d"
   "Github_Auto_Follow"

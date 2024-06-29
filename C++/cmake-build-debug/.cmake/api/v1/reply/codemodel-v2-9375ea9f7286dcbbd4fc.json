@@ -55,7 +55,7 @@
 				{
 					"directoryIndex" : 1,
 					"id" : "Github_Auto_Follow::@145eef247bfb46b6828c",
-					"jsonFile" : "target-Github_Auto_Follow-Debug-998d49befc5b3144cc6e.json",
+					"jsonFile" : "target-Github_Auto_Follow-Debug-1f6f1fbe2b423970ab4a.json",
 					"name" : "Github_Auto_Follow",
 					"projectIndex" : 0
 				}
@@ -65,12 +65,12 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/dongwook/GIthub_Auto_Follow/C++/cmake-build-debug",
-		"source" : "/home/dongwook/GIthub_Auto_Follow/C++"
+		"build" : "/home/dongwook/CLionProjects/Github_Auto_Follow/C++/cmake-build-debug",
+		"source" : "/home/dongwook/CLionProjects/Github_Auto_Follow/C++"
 	},
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 4
+		"minor" : 6
 	}
 }

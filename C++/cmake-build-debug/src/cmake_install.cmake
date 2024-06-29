@@ -1,4 +1,4 @@
-# Install script for directory: /home/dongwook/GIthub_Auto_Follow/C++/src
+# Install script for directory: /home/dongwook/CLionProjects/Github_Auto_Follow/C++/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

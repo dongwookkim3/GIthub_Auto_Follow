@@ -1,8 +1,7 @@
-src/CMakeFiles/Github_Auto_Follow.dir/main.cpp.o: \
- /home/dongwook/CLionProjects/Github_Auto_Follow/C++/src/main.cpp \
+src/CMakeFiles/Github_Auto_Follow.dir/Resource/TestPrint.cpp.o: \
+ /home/dongwook/CLionProjects/Github_Auto_Follow/C++/src/Resource/TestPrint.cpp \
  /usr/include/stdc-predef.h \
- /home/dongwook/CLionProjects/Github_Auto_Follow/C++/src/Include/main.h \
- /home/dongwook/CLionProjects/Github_Auto_Follow/C++/src/Include/TestPrint.h \
+ /home/dongwook/CLionProjects/Github_Auto_Follow/C++/src/Resource/../Include/TestPrint.h \
  /usr/include/c++/13/iostream /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
